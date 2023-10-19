@@ -158,7 +158,11 @@ hr {
     padding-right: 20px;
 }
 
-
+@media (max-width: 991px) { /* Bootstrap's breakpoint for mobile screens */
+    .navbar-collapse {
+        text-align: right;
+    }
+}
 
 
 
