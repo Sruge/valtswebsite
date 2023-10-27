@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>Valentin Gasser</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
@@ -41,50 +43,65 @@
 </nav>
 <main>
     <div class="fullscreen-bg"></div>
-    <div class="container mt-4"> <!-- mt-4 adds some top margin for spacing -->
+    <div class="container-fluid mt-4"> <!-- Use container-fluid for full width -->
         <div class="row">
             <div class="col-md-6">
                 <p>
                     Willkommen auf der Homepage des Südtiroler Musikers Valentin Gasser.
-
+                <p>
                     „Für mich persönlich fußt mein Musikerdasein auf drei tragenden Säulen:
-
+                </p>
+                <p>
                     Komponieren
+
+                </p>
+                <p>
                     Unterrichten
+                </p>
+                <p>
                     Spielen
                 </p>
+                </p>
             </div>
             <div class="col-md-6">
                 <p>
-                    Jeder dieser drei Aspekte ist gleichwertig und zusammen ergänzen sie sich zu meinem Bild eines umfassenden Musikers. Ich würde nie auf eine dieser drei Tätigkeiten verzichten wollen, da sie sich gegenseitig befruchten. Als ausführenden Musiker stehe ich auf der Bühne und spiele Werke die ich komponiert habe, als Lehrender entdecke ich gemeinsam mit meinen Lernenden neue Nuancen und Aspekte die ich dann als Komponist verwenden kann. Es ließen sich noch viele Beispiele finden. Dieser Kreislauf macht mich glücklich und deshalb ist es mir ein Anliegen, dass diese „Dreieinigkeit“ auch auf meiner Webseite zum Ausdruck gebracht wird.“
+                    Jeder dieser drei Aspekte ist gleichwertig und zusammen ergänzen sie sich zu meinem Bild eines
+                    umfassenden Musikers. Ich würde nie auf eine dieser drei Tätigkeiten verzichten wollen, da sie sich
+                    gegenseitig befruchten. Als ausführenden Musiker stehe ich auf der Bühne und spiele Werke die ich
+                    komponiert habe, als Lehrender entdecke ich gemeinsam mit meinen Lernenden neue Nuancen und Aspekte
+                    die ich dann als Komponist verwenden kann. Es ließen sich noch viele Beispiele finden. Dieser
+                    Kreislauf macht mich glücklich und deshalb ist es mir ein Anliegen, dass diese „Dreieinigkeit“ auch
+                    auf meiner Webseite zum Ausdruck gebracht wird.“
                 </p>
             </div>
-        </div>
+        </div>        </div>
     </div>
     <!-- Separation Line -->
-    <hr>
+    <hr class="thicker-hr"> <!-- Custom class for thicker line -->
 
     <!-- Two columns for contact info -->
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-md-6">
-                <!-- Contact info for the first column -->
-                <p>
-                    Address: Your address here<br>
-                    Phone: Your phone number here
-                </p>
-            </div>
-            <div class="col-md-6">
-                <!-- Contact info for the second column -->
-                <p>
-                    Email: Your email here<br>
-                    Other Info: Any other contact details
-                </p>
+    <div class="contact">
+        <div class="container-fluid mt-4"> <!-- Use container-fluid for full width -->
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Contact info for the first column -->
+                    <p class="bold-bigger-text"> <!-- Custom class for bigger and bold text -->
+                        Address: Your address here<br>
+                        Phone: Your phone number here
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <!-- Contact info for the second column -->
+                    <p class="bold-bigger-text"> <!-- Custom class for bigger and bold text -->
+                        Email: Your email here<br>
+                        Other Info: Any other contact details
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-
 </main>
+
 <script src="script.js"></script>
 </body>
 </html>

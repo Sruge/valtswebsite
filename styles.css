@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'YourFontName'; /* You can name it whatever you like */
+    src: url('fonts/Soehne-Book.otf') format('opentype'); /* Path relative to the CSS file */
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Reset some default styles */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'YourFontName', sans-serif; /* Fallback to sans-serif if custom font doesn't load */
 }
 
 body {
@@ -164,6 +171,20 @@ hr {
     }
 }
 
+.container-fluid {
+    max-width: 90%; /* Adjust this value as needed */
+}
+/* Custom class for thicker line */
+.thicker-hr {
+    border-width: 2px; /* Adjust as needed */
+    width: 90%;
+}
+
+/* Custom class for bigger and bold text */
+.bold-bigger-text {
+    font-size: 1.5em; /* Adjust as needed */
+    font-weight: bold;
+}
 
 
 
